@@ -1,4 +1,4 @@
-#include<iostream>
+﻿#include<iostream>
 using namespace std;
 
 struct stInfo
@@ -26,7 +26,7 @@ stInfo ReadInfo()
 
 bool IsAccepted(stInfo Info)
 {
-	return (Info.HasRecommendation||(Info.Age > 21 && Info.HasDrivingLicense));
+	return (Info.HasRecommendation || (Info.Age > 21 && Info.HasDrivingLicense));
 }
 
 void PrintResult(stInfo Info)
