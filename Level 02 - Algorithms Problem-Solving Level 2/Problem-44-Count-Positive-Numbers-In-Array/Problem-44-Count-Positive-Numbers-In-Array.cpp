@@ -1,0 +1,71 @@
+#includeiostream
+#includecstdlib
+using namespace std;
+
+enum enPositiveOrNegative { Positive = 1, Negative = 2 };
+
+enPositiveOrNegative CheckPositiveOrNegative(int Number)
+{
+	if (Number  0)
+		return enPositiveOrNegativePositive;
+	else
+		return enPositiveOrNegativeNegative;
+}
+
+short RandomNumber(short From, short To)
+{
+	short RandNum = rand() % (To - From + 1) + From;
+	return RandNum;
+}
+
+void FillArrayByRandomNumbers(short Arr[100], short& ArrayLength)
+{
+	cout  Enter number of elements n;
+	cin  ArrayLength;
+
+	for (short i = 0;i  ArrayLength;i++)
+	{
+		Arr[i] = RandomNumber(-100, 100);
+	}
+
+}
+
+void PrintArray(short Arr[100], short ArrayLength)
+{
+	for (short i = 0;i  ArrayLength;i++)
+	{
+		cout  Arr[i]   ;
+	}
+	cout  endl;
+}
+
+short CountPositiveNumbersInArray(short Arr[100], short ArrayLength)
+{
+	short PositiveCounter = 0;
+
+	for (short i=0;i ArrayLength;i++)
+	{
+		if (CheckPositiveOrNegative(Arr[i])== enPositiveOrNegativePositive)
+		{
+			PositiveCounter++;
+		}
+	}
+	return PositiveCounter;
+}
+
+int main()
+{
+	srand((unsigned)time(NULL));
+
+	short Array[100], ArrayLength = 0;
+	FillArrayByRandomNumbers(Array, ArrayLength);
+
+	cout  nArray Elementsn;
+	PrintArray(Array, ArrayLength);
+
+	short PositiveCounter = CountPositiveNumbersInArray(Array, ArrayLength);
+
+	cout  nPositive Numbers count is   PositiveCounter  endl;
+
+	return 0;
+}
