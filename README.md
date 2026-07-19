@@ -7,8 +7,6 @@
        width="700"
        alt="Algorithms and Fundamentals Banner">
 </p>
----
-
 ## 👋 What is This?
 
 This is not just a collection of random problems.
