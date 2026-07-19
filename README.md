@@ -15,7 +15,7 @@ This is a **structured problem-solving journey** — every problem is carefully 
 
 Each problem here is:
 - ✅ Solved with clean, readable code
-- 📋 Documented with a full English & Arabic README
+- 📋 Documented with a full English README
 - 🧠 Explained with Logic Diagrams and Key Concepts
 - 📁 Organized in a consistent folder structure
 
