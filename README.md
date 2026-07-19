@@ -2,8 +2,11 @@
 
 > "Every expert was once a beginner who refused to quit."
 
-<img width="1536" height="1024" alt="v" src="https://github.com/user-attachments/assets/b7c5adcd-31f8-4b6b-9ba0-bd491fa6ef9a" />
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b7c5adcd-31f8-4b6b-9ba0-bd491fa6ef9a"
+       width="700"
+       alt="Algorithms and Fundamentals Banner">
+</p>
 ---
 
 ## 👋 What is This?
