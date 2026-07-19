@@ -60,11 +60,5 @@ This one is different:
 - Every concept is **explained in two languages**
 - The structure mirrors a **real professional roadmap**
 
----
-
-## 🚀 About Me
-
-I'm **Mostafa Mohammed** — a C++ & C# developer in training,
-working through one of the most structured programming roadmaps in the Arab world.
 
 [![GitHub](https://img.shields.io/badge/GitHub-aylex--ax-black?style=flat&logo=github)](https://github.com/aylex-ax)
