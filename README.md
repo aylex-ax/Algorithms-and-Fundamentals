@@ -1,17 +1,29 @@
 # Algorithms-and-Fundamentals 🧠
 
-> "Every expert was once a beginner who refused to quit."
+<table>
+<tr>
+<td width="80%">
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/2c2c38a6-a65c-480d-a222-efdaa8d2ca79" width="120" alt="Sticker">
-</p>
+> **"Every expert was once a beginner who refused to quit."**
 
+</td>
+
+<td align="right" width="20%">
+
+<img src="https://github.com/user-attachments/assets/2c2c38a6-a65c-480d-a222-efdaa8d2ca79" width="120" alt="Sticker">
+
+</td>
+</tr>
+</table>
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/b7c5adcd-31f8-4b6b-9ba0-bd491fa6ef9a"
        width="700"
        alt="Algorithms and Fundamentals Banner">
 </p>
+
+
+
 ## 👋 What is This?
 
 This is not just a collection of random problems.
